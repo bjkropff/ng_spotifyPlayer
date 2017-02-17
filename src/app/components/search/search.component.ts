@@ -7,6 +7,8 @@ import {Artist} from '../../../Artist';
     selector: 'search',
     templateUrl: 'search.component.html'
 })
+
+
 export class SearchComponent {
     searchStr:string;
     searchRes: Artist[];
